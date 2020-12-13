@@ -13,6 +13,7 @@ git clone https://github.com/crunos/kernel.git
 for IMG in kernel-base kernel firmware firmware-all modules-all; do \
     docker run --rm -ti \
     -v /var/run/docker.sock:/var/run/docker.sock \
+    -v ~/.docker:/root/.docker \
     -v $(pwd):$(pwd) \
     -w $(pwd) \
     crunos/os-builder:latest \
