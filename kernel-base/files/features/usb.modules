@@ -1,0 +1,8 @@
+kernel/drivers/usb/host
+kernel/drivers/usb/storage
+kernel/drivers/hid/usbhid
+kernel/drivers/hid/hid-generic.ko.xz
+kernel/drivers/hid/hid-cherry.ko.xz
+kernel/drivers/hid/hid-apple.ko.xz
+kernel/fs/fat
+kernel/fs/nls

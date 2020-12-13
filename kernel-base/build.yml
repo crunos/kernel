@@ -1,0 +1,5 @@
+image: kernel-base
+org: crunos
+
+network: true
+disable-content-trust: true

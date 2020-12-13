@@ -1,0 +1,4 @@
+kernel/drivers/block/virtio*
+kernel/drivers/virtio
+kernel/drivers/net/virtio_net*
+kernel/drivers/firmware/qemu_fw_cfg.ko.xz

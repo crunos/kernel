@@ -1,0 +1,7 @@
+image: firmware
+org: crunos
+
+network: true
+disable-content-trust: true
+
+#depends: kernel-base
